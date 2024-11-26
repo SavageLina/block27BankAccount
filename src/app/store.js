@@ -4,7 +4,7 @@ import transactionsSlice, { deposit, withdrawal, transfer } from "../features/tr
 // TODO: Configure the store to use the reducer from the transactions slice.
 const store = configureStore({
     reducer: {
-        transactions: transactionsReducer,
+        transactions: transactionsSlice,
         deposit: deposit,
         withdrawal: withdrawal,
         transfer: transfer, 
